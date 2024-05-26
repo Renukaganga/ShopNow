@@ -25,7 +25,8 @@
     "styled-components": "^6.1.11",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "use-shopping-cart": "^3.2.0"
+    "use-shopping-cart": "^3.2.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
