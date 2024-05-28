@@ -16,6 +16,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.379.0",
+    "mongodb": "^6.6.2",
     "mongoose": "^8.4.0",
     "next": "14.2.3",
     "next-sanity": "^9.2.0",
@@ -23,12 +24,10 @@
     "react-dom": "^18",
     "react-hook-form": "^7.51.5",
     "react-hot-toast": "^2.4.1",
-    "sanity": "^3.43.0",
-    "stripe": "^15.7.0",
     "styled-components": "^6.1.11",
+    "swr": "^2.2.5",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "use-shopping-cart": "^3.2.0",
     "zustand": "^4.5.2"
   },
   "devDependencies": {

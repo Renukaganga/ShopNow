@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import ProductItem from '@/components/products/ProductItem'
+import ProductItem from '@/components/products/productItem'
 import data from '@/lib/data'
 import productService from '@/lib/services/productService'
 import { convertDocToObj } from '@/lib/utils'
@@ -7,7 +7,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_APP_NAME || 'Next Amazona V2',
+  title: process.env.NEXT_PUBLIC_APP_NAME || 'Shop Now!',
   description:
     process.env.NEXT_PUBLIC_APP_DESC ||
     'Nextjs, Server components, Next auth, daisyui, zustand',
