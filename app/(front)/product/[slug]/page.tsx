@@ -3,7 +3,7 @@ import { convertDocToObj } from '@/lib/utils'
 import productService from '@/lib/services/productService'
 import Image from 'next/image'
 import Link from 'next/link'
-// import { Rating } from '@/components/products/Rating'
+import { Rating } from '@/components/products/Rating'
 
 export async function generateMetadata({
   params,
