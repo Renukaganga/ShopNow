@@ -2,7 +2,7 @@ import { Product } from '@/lib/models/ProductModel'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-// import { Rating } from './Rating'
+import { Rating } from './Rating'
 
 export default function ProductItem({ product }: { product: Product }) {
   return (
@@ -22,7 +22,7 @@ export default function ProductItem({ product }: { product: Product }) {
         <Link href={`/product/${product.slug}`}>
           <h2 className="card-title font-normal">{product.name}</h2>
         </Link>
-        {/* <Rating value={product.rating} caption={`(${product.numReviews})`} /> */}
+        <Rating value={product.rating} caption={`(${product.numReviews})`} />
         <p className="mb-2">{product.brand}</p>
         <div className="card-actions flex items-center justify-between">
           <span className="text-2xl">${product.price}</span>

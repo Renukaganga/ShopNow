@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 import { SearchBox } from './SearchBox'
 
 const Menu = () => {
-  const { items, init } = useCartService()
+  const { items,init } = useCartService()
   const [mounted, setMounted] = useState(false)
   useEffect(() => {
     setMounted(true)
