@@ -1,5 +1,5 @@
 'use client'
-import { PayPalButtons, PayPalScriptProvider } from '@paypal/react-paypal-js'
+import { PayPalButtons, PayPalScriptProvider } from '@paypal/react-paypal-js' 
 import { OrderItem } from '@/lib/models/OrderModel'
 import { useSession } from 'next-auth/react'
 import Image from 'next/image'
