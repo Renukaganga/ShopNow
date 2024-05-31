@@ -1,7 +1,9 @@
+// src/app/layout.tsx
+import Providers from '@/components/Providers'
+import { auth } from '@/lib/auth'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Providers from '@/components/Providers'
 import DrawerButton from '@/components/DrawerButton'
 import Sidebar from '@/components/Sidebar'
 import Header from '@/components/header/Header'
@@ -13,15 +15,17 @@ export const metadata: Metadata = {
   description: 'Modern ECommerce Website',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const session = await auth()
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Providers>
+        <Providers session={session}>
           <div className="drawer">
             <DrawerButton />
             <div className="drawer-content">

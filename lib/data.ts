@@ -32,7 +32,7 @@ const data = {
     },
     {
       name: 'Free Shirt',
-      slug: 'free-shirt',
+      slug: 'fit-shirt',
       category: 'Shirts',
       image: '/images/shirt2.jpg',
       price: 70,
@@ -46,7 +46,7 @@ const data = {
     },
     {
       name: 'Free Shirt',
-      slug: 'free-shirt',
+      slug: 'slim-shirt',
       category: 'Shirts',
       image: '/images/shirt4.webp',
       price: 70,
@@ -61,7 +61,7 @@ const data = {
 
     {
       name: 'Fit Shirt',
-      slug: 'fit-shirt',
+      slug: 'camp-shirt',
       category: 'Shirts',
       image: '/images/shirt3.jpg',
       price: 80,
@@ -75,7 +75,7 @@ const data = {
     },
     {
       name: 'Slim Shirt',
-      slug: 'slim-shirt',
+      slug: 'Dress-shirt',
       category: 'Shirts',
       image: '/images/shirt4.webp',
       price: 90,
