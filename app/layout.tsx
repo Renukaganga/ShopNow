@@ -1,5 +1,5 @@
 // src/app/layout.tsx
-import Providers from '@/components/Providers'
+import Providers from './Providers'
 import { auth } from '@/lib/auth'
 import './globals.css'
 import type { Metadata } from 'next'
