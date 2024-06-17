@@ -34,7 +34,7 @@ export default async function RootLayout({
                 {children}
                 <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                   <p>
-                    Copyright © 2023 - All right reserved by Shop Now!
+                    Copyright © 2024 - All right reserved by Shop Now!
                   </p>
                 </footer>
               </div>

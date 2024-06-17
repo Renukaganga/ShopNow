@@ -53,8 +53,8 @@ export default async function ProductDetails({
             <li>
               <h1 className="text-xl">{product.name}</h1>
             </li>
-           <li>
-               <Rating
+            <li>
+              <Rating
                 value={product.rating}
                 caption={`${product.numReviews} ratings`}
               />
