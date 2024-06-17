@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const featuredProducts = data.products.filter((product) => product.isFeatured);
-  const latestProducts = data.products.slice(0, 4); // Get the first 4 latest products
+ 
 
   return (
     <>
@@ -24,12 +24,7 @@ export default function Home() {
           <ProductItem key={product.slug} product={product} />
         ))}
       </div>
-      <h2 className="text-2xl py-2">Latest Products</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
-        {latestProducts.map((product) => (
-          <ProductItem key={product.slug} product={product} />
-        ))}
-      </div>
+     
     </>
   );
 }
